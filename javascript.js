@@ -1,6 +1,6 @@
 //global variables
 
-var wordOptions = ["cat", "dog", "robot", "bird", "turkey", "dolphin", "rat", "chicken", "horse", "lion"];
+var wordOptions = ["Pretty In Pink", "Jaws", "Fight Club", "Breakfast Club", "The Sixth Sense", "Casablanca", "Vertigo", "The Birds", "The Godfather", "Psyco"];
 var selectedWord = "";
 var lettersinWord = [];
 var numBlanks = 0;
@@ -39,7 +39,7 @@ document.getElementById('lossCounter').innerHTML= lossCount;
 
 }
 function checkLetters(letter){
-  alert(letter);
+
   var isLetterInWord = false;
   for(var i = 0; i<numBlanks; i++){
     if(selectedWord[i] == letter){

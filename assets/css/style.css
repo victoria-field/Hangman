@@ -1,9 +1,22 @@
 .jumbotron{
-  background-image: url(../img/screen3.png);
+  background: url(../img/screen.jpg) no-repeat center center scroll;
   height:300px;
-  background-repeat: no-repeat;
-  background-size: auto 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  /*background-repeat: no-repeat;
+  background-size: auto 100%;*/
   border-bottom:1px solid #ff6a00;
   text-align: center;
+}
 
+
+body{
+background-color: rgb(230, 159, 80);
+}
+
+.panel{
+  background-color: rgb(68, 105, 38);
+  text-align: center;
 }
